@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-15T19:35:03 IST" name="Command line suite" finished-at="2023-03-15T19:35:37 IST" duration-ms="34223">
+    <groups>
+    </groups>
+    <test started-at="2023-03-15T19:35:03 IST" name="Command line test" finished-at="2023-03-15T19:35:37 IST" duration-ms="34223">
+      <class name="testsPackage.EBCTrekTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testsPackage.EBCTrekTest@2eea88a1]" started-at="2023-03-15T19:35:14 IST" name="setup" finished-at="2023-03-15T19:35:18 IST" duration-ms="4122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_15_EBCTrek()[pri:0, instance:testsPackage.EBCTrekTest@2eea88a1]" started-at="2023-03-15T19:35:18 IST" name="tc_15_EBCTrek" description="EBC Trek selection" finished-at="2023-03-15T19:35:22 IST" duration-ms="4133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_15_EBCTrek -->
+        <test-method signature="tc_16_included()[pri:0, instance:testsPackage.EBCTrekTest@2eea88a1]" started-at="2023-03-15T19:35:22 IST" name="tc_16_included" description="List of what&#039;s included" finished-at="2023-03-15T19:35:22 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_16_included -->
+        <test-method signature="tc_17_notIncluded()[pri:0, instance:testsPackage.EBCTrekTest@2eea88a1]" started-at="2023-03-15T19:35:22 IST" name="tc_17_notIncluded" description="List of what&#039;s not included" finished-at="2023-03-15T19:35:23 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_17_notIncluded -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsPackage.EBCTrekTest@2eea88a1]" started-at="2023-03-15T19:35:23 IST" name="tearDown" finished-at="2023-03-15T19:35:23 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsPackage.EBCTrekTest -->
+      <class name="testsPackage.BespokeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:03 IST" name="setup" finished-at="2023-03-15T19:35:09 IST" duration-ms="5662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_05_bespokeTripsButton()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:09 IST" name="tc_05_bespokeTripsButton" description="Functionalty of Bespoke Trips button" finished-at="2023-03-15T19:35:11 IST" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_05_bespokeTripsButton -->
+        <test-method signature="tc_06_tripsQuastionsStart()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:11 IST" name="tc_06_tripsQuastionsStart" description="Proceed with queastions button" finished-at="2023-03-15T19:35:12 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_06_tripsQuastionsStart -->
+        <test-method signature="tc_07_tripsQuastionsOne()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:12 IST" name="tc_07_tripsQuastionsOne" description="Solo or group adventure selection" finished-at="2023-03-15T19:35:12 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_07_tripsQuastionsOne -->
+        <test-method signature="tc_08_tripsQuastionsTwo()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:12 IST" name="tc_08_tripsQuastionsTwo" description="How many people selection" finished-at="2023-03-15T19:35:12 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_08_tripsQuastionsTwo -->
+        <test-method signature="tc_09_tripsQuastionsThree()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:12 IST" name="tc_09_tripsQuastionsThree" description="Type of adventure selection" finished-at="2023-03-15T19:35:12 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_09_tripsQuastionsThree -->
+        <test-method signature="tc_10_tripsQuastionsFour()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:12 IST" name="tc_10_tripsQuastionsFour" description="Where i want the adventure selection" finished-at="2023-03-15T19:35:13 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_10_tripsQuastionsFour -->
+        <test-method signature="tc_11_tripsQuastionsFive()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:13 IST" name="tc_11_tripsQuastionsFive" description="Time of the year selection" finished-at="2023-03-15T19:35:13 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_11_tripsQuastionsFive -->
+        <test-method signature="tc_12_tripsQuastionsSix()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:13 IST" name="tc_12_tripsQuastionsSix" description="For how long selection" finished-at="2023-03-15T19:35:13 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_12_tripsQuastionsSix -->
+        <test-method signature="tc_13_tripsQuastionsSeven()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:13 IST" name="tc_13_tripsQuastionsSeven" description="Expirience selection" finished-at="2023-03-15T19:35:13 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_13_tripsQuastionsSeven -->
+        <test-method signature="tc_14_tripsQuastionsValidation()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:13 IST" name="tc_14_tripsQuastionsValidation" description="Adventure summary" finished-at="2023-03-15T19:35:13 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_14_tripsQuastionsValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsPackage.BespokeTest@a8ef162]" started-at="2023-03-15T19:35:13 IST" name="tearDown" finished-at="2023-03-15T19:35:14 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsPackage.BespokeTest -->
+      <class name="testsPackage.InTouchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testsPackage.InTouchTest@7ac296f6]" started-at="2023-03-15T19:35:23 IST" name="setup" finished-at="2023-03-15T19:35:27 IST" duration-ms="4374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_01_checkPhone()[pri:0, instance:testsPackage.InTouchTest@7ac296f6]" started-at="2023-03-15T19:35:27 IST" name="tc_01_checkPhone" description="Correct phone check" finished-at="2023-03-15T19:35:29 IST" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_checkPhone -->
+        <test-method signature="tc_02_checkEmail()[pri:0, instance:testsPackage.InTouchTest@7ac296f6]" started-at="2023-03-15T19:35:29 IST" name="tc_02_checkEmail" description="Correct mail check" finished-at="2023-03-15T19:35:30 IST" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_02_checkEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsPackage.InTouchTest@7ac296f6]" started-at="2023-03-15T19:35:30 IST" name="tearDown" finished-at="2023-03-15T19:35:30 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsPackage.InTouchTest -->
+      <class name="testsPackage.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testsPackage.LoginTest@7fd7a283]" started-at="2023-03-15T19:35:30 IST" name="setup" finished-at="2023-03-15T19:35:34 IST" duration-ms="4408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_03_loginButton()[pri:0, instance:testsPackage.LoginTest@7fd7a283]" started-at="2023-03-15T19:35:34 IST" name="tc_03_loginButton" description="Login button functionalty" finished-at="2023-03-15T19:35:35 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_03_loginButton -->
+        <test-method signature="tc_04_wrongLogin(java.lang.String,java.lang.String)[pri:0, instance:testsPackage.LoginTest@7fd7a283]" started-at="2023-03-15T19:35:35 IST" name="tc_04_wrongLogin" description="Login with wrong credentials" data-provider="getData" finished-at="2023-03-15T19:35:36 IST" duration-ms="1038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_04_wrongLogin -->
+        <test-method signature="tc_04_wrongLogin(java.lang.String,java.lang.String)[pri:0, instance:testsPackage.LoginTest@7fd7a283]" started-at="2023-03-15T19:35:36 IST" name="tc_04_wrongLogin" description="Login with wrong credentials" data-provider="getData" finished-at="2023-03-15T19:35:36 IST" duration-ms="755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@yandex.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_04_wrongLogin -->
+        <test-method signature="tc_04_wrongLogin(java.lang.String,java.lang.String)[pri:0, instance:testsPackage.LoginTest@7fd7a283]" started-at="2023-03-15T19:35:36 IST" name="tc_04_wrongLogin" description="Login with wrong credentials" data-provider="getData" finished-at="2023-03-15T19:35:37 IST" duration-ms="800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first@walla.co.il]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[everest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_04_wrongLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsPackage.LoginTest@7fd7a283]" started-at="2023-03-15T19:35:37 IST" name="tearDown" finished-at="2023-03-15T19:35:37 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsPackage.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

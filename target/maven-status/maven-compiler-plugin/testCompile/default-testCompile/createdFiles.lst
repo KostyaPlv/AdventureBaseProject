@@ -1,0 +1,11 @@
+pageObjects\BespokeTripsPage.class
+pageObjects\LoginPage.class
+testsPackage\InTouchTest.class
+pageObjects\BasePage.class
+pageObjects\HomePage.class
+pageObjects\InTouchPage.class
+pageObjects\EBCTrekPage.class
+testsPackage\BaseTest.class
+testsPackage\EBCTrekTest.class
+testsPackage\BespokeTest.class
+testsPackage\LoginTest.class

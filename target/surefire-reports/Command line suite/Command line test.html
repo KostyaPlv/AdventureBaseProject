@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 15 19:35:03 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>34 seconds (34223 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testsPackage.LoginTest.tc_04_wrongLogin()'><b>tc_04_wrongLogin</b><br>Test class: testsPackage.LoginTest<br>Test method: Login with wrong credentials<br>Parameters: first@walla.co.il, everest</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.LoginTest@7fd7a283</td></tr>
+<tr>
+<td title='testsPackage.BespokeTest.tc_08_tripsQuastionsTwo()'><b>tc_08_tripsQuastionsTwo</b><br>Test class: testsPackage.BespokeTest<br>Test method: How many people selection</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.BespokeTest@a8ef162</td></tr>
+<tr>
+<td title='testsPackage.InTouchTest.tc_01_checkPhone()'><b>tc_01_checkPhone</b><br>Test class: testsPackage.InTouchTest<br>Test method: Correct phone check</td>
+<td></td>
+<td>1</td>
+<td>testsPackage.InTouchTest@7ac296f6</td></tr>
+<tr>
+<td title='testsPackage.InTouchTest.tc_02_checkEmail()'><b>tc_02_checkEmail</b><br>Test class: testsPackage.InTouchTest<br>Test method: Correct mail check</td>
+<td></td>
+<td>1</td>
+<td>testsPackage.InTouchTest@7ac296f6</td></tr>
+<tr>
+<td title='testsPackage.BespokeTest.tc_07_tripsQuastionsOne()'><b>tc_07_tripsQuastionsOne</b><br>Test class: testsPackage.BespokeTest<br>Test method: Solo or group adventure selection</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.BespokeTest@a8ef162</td></tr>
+<tr>
+<td title='testsPackage.LoginTest.tc_04_wrongLogin()'><b>tc_04_wrongLogin</b><br>Test class: testsPackage.LoginTest<br>Test method: Login with wrong credentials<br>Parameters: admin@gmail.com, 123456</td>
+<td></td>
+<td>1</td>
+<td>testsPackage.LoginTest@7fd7a283</td></tr>
+<tr>
+<td title='testsPackage.BespokeTest.tc_10_tripsQuastionsFour()'><b>tc_10_tripsQuastionsFour</b><br>Test class: testsPackage.BespokeTest<br>Test method: Where i want the adventure selection</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.BespokeTest@a8ef162</td></tr>
+<tr>
+<td title='testsPackage.BespokeTest.tc_14_tripsQuastionsValidation()'><b>tc_14_tripsQuastionsValidation</b><br>Test class: testsPackage.BespokeTest<br>Test method: Adventure summary</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.BespokeTest@a8ef162</td></tr>
+<tr>
+<td title='testsPackage.LoginTest.tc_03_loginButton()'><b>tc_03_loginButton</b><br>Test class: testsPackage.LoginTest<br>Test method: Login button functionalty</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.LoginTest@7fd7a283</td></tr>
+<tr>
+<td title='testsPackage.BespokeTest.tc_09_tripsQuastionsThree()'><b>tc_09_tripsQuastionsThree</b><br>Test class: testsPackage.BespokeTest<br>Test method: Type of adventure selection</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.BespokeTest@a8ef162</td></tr>
+<tr>
+<td title='testsPackage.BespokeTest.tc_11_tripsQuastionsFive()'><b>tc_11_tripsQuastionsFive</b><br>Test class: testsPackage.BespokeTest<br>Test method: Time of the year selection</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.BespokeTest@a8ef162</td></tr>
+<tr>
+<td title='testsPackage.EBCTrekTest.tc_16_included()'><b>tc_16_included</b><br>Test class: testsPackage.EBCTrekTest<br>Test method: List of what's included</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.EBCTrekTest@2eea88a1</td></tr>
+<tr>
+<td title='testsPackage.BespokeTest.tc_05_bespokeTripsButton()'><b>tc_05_bespokeTripsButton</b><br>Test class: testsPackage.BespokeTest<br>Test method: Functionalty of Bespoke Trips button</td>
+<td></td>
+<td>2</td>
+<td>testsPackage.BespokeTest@a8ef162</td></tr>
+<tr>
+<td title='testsPackage.BespokeTest.tc_06_tripsQuastionsStart()'><b>tc_06_tripsQuastionsStart</b><br>Test class: testsPackage.BespokeTest<br>Test method: Proceed with queastions button</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.BespokeTest@a8ef162</td></tr>
+<tr>
+<td title='testsPackage.BespokeTest.tc_13_tripsQuastionsSeven()'><b>tc_13_tripsQuastionsSeven</b><br>Test class: testsPackage.BespokeTest<br>Test method: Expirience selection</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.BespokeTest@a8ef162</td></tr>
+<tr>
+<td title='testsPackage.EBCTrekTest.tc_17_notIncluded()'><b>tc_17_notIncluded</b><br>Test class: testsPackage.EBCTrekTest<br>Test method: List of what's not included</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.EBCTrekTest@2eea88a1</td></tr>
+<tr>
+<td title='testsPackage.EBCTrekTest.tc_15_EBCTrek()'><b>tc_15_EBCTrek</b><br>Test class: testsPackage.EBCTrekTest<br>Test method: EBC Trek selection</td>
+<td></td>
+<td>4</td>
+<td>testsPackage.EBCTrekTest@2eea88a1</td></tr>
+<tr>
+<td title='testsPackage.LoginTest.tc_04_wrongLogin()'><b>tc_04_wrongLogin</b><br>Test class: testsPackage.LoginTest<br>Test method: Login with wrong credentials<br>Parameters: user@yandex.ru, s123</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.LoginTest@7fd7a283</td></tr>
+<tr>
+<td title='testsPackage.BespokeTest.tc_12_tripsQuastionsSix()'><b>tc_12_tripsQuastionsSix</b><br>Test class: testsPackage.BespokeTest<br>Test method: For how long selection</td>
+<td></td>
+<td>0</td>
+<td>testsPackage.BespokeTest@a8ef162</td></tr>
+</table><p>
+</body>
+</html>
